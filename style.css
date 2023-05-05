@@ -1,0 +1,144 @@
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flexbox;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-title {
+    color: #000;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 1.5em;
+    padding: 1.2em 2em;
+    text-align: center;
+}
+
+
+ul.list {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+
+.freelancer {
+    display: flex;
+    flex-direction: column;
+}
+
+.freelancer h1 {
+    text-align: center;
+}
+
+.freelancer p {
+    text-align: center;
+    margin: 1em 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #676767;
+}
+
+.main-details {
+    display: flex;
+}
+
+.about-section {
+    width: 50%;
+}
+
+.about-section h2 {
+    margin-bottom: 1em;
+}
+
+
+.general-requirements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.general-requirements div{
+    width: 50%;
+    text-align: center;
+}
+
+.general-requirements ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    .general-requirements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general-requirements div {
+        width: 100%;
+    }
+}
+
+/* About Section */
+.about {
+    margin-top: 2em;
+    margin-bottom: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.about * {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Vacancies Section */
+
+.vacancies {
+    display: flex;
+    flex-direction: column;
+    /* margin: 2em; */
+}
+
+.vacancies-details {
+    margin-top: 1em; 
+}
+
+
+.email-marketer {
+    display: flex;
+}
+
+.vacancies-details a {
+    display: block;
+}
+
+.tabcontainer {
+    margin-top: 2em;
+}
+
+a.btn {
+    width: 100%;
+}
+
+.application-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
